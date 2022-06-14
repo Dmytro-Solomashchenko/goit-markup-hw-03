@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------ */
-/*                           Rules                              */
+/*                           Rules */
 /* ------------------------------------------------------------ */
 :root {
   --primary-text-color: #212121;
@@ -31,7 +31,7 @@ ul {
 .link {
   text-decoration: none;
 }
-/* ---------------------------LOGO----------------------------- */
+/* ------------------------------------------------------------ */
 /* logo */
 .header-logo-web,
 .footer-logo-web,
@@ -55,7 +55,7 @@ ul {
 .footer-logo-studio {
   color: var(--white-color);
 }
-/* ---------------------------HEADER---------------------------- */
+/* ------------------------------------------------------------ */
 /* header */
 .header-nav .link.current {
   color: var(--accent-color);
@@ -84,7 +84,7 @@ ul {
 .footer-contacts .link:focus {
   color: var(--accent-color);
 }
-/* ---------------------------FOOTER---------------------------- */
+/* ------------------------------------------------------------ */
 /* footer */
 .footer {
   background-color: var(--tertiary-bg-color);
@@ -103,9 +103,9 @@ ul {
   color: var(--footer-text-color);
 }
 /* ------------------------------------------------------------ */
-/*                       Index Main                             */
+/*                       Index Main */
 /* ------------------------------------------------------------ */
-/*                   Index-Section1-Hero                        */
+/* Index-Section1-Hero */
 .hero {
   background-color: var(--tertiary-bg-color);
 }
@@ -136,7 +136,7 @@ ul {
   background-color: var(--button-hover-color);
 }
 /* ------------------------------------------------------------ */
-/*                   Index-Section2-Features                    */
+/* Index-Section2-Features */
 .features-list .features-title {
   font-weight: 700;
   line-height: 1.14;
@@ -149,7 +149,7 @@ ul {
   line-height: 1.71;
 }
 /* ------------------------------------------------------------ */
-/*                     Index-Section3-Work                      */
+/* Index-Section3-Work */
 .section-title {
   color: #212121;
   font-weight: 700;
@@ -158,8 +158,8 @@ ul {
   text-align: center;
 }
 /* ------------------------------------------------------------ */
-/*                     Index-Section4-Team                      */
-/* !! .section-title (Section3) is dublicated in this section !!*/
+/* Index-Section4-Team */
+/* .section-title (Section3) is dublicated in this section */
 .team {
   background-color: var(--secondary-bg-color);
 }
@@ -178,9 +178,9 @@ ul {
   line-height: 1.19;
 }
 /* ------------------------------------------------------------ */
-/*                      Portfolio-Main                          */
+/*                      Portfolio-Main */
 /* ------------------------------------------------------------ */
-/*                    Portfolio-Filters                         */
+/* Portfolio-Filters */
 .button-filters {
   cursor: pointer;
   background-color: var(--secondary-bg-color);
@@ -196,7 +196,7 @@ ul {
   background-color: var(--accent-color);
 }
 /* ------------------------------------------------------------ */
-/*                    Portfolio-Projects                        */
+/* Portfolio-Projects */
 .projects .projects-title {
   color: var(--primary-text-color);
   font-weight: 700;
