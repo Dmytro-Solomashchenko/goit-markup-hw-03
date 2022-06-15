@@ -289,6 +289,19 @@ img {
 .index-team {
   background-color: var(--secondary-bg-color);
 }
+.index-team-list {
+  display: flex;
+}
+
+.index-team-list .item {
+  width: 370px;
+  margin-right: 30px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.index-team-list .item:nth-child(4n) {
+  margin-right: 0;
+}
 
 .index-team-title {
   color: #212121;
@@ -312,6 +325,13 @@ img {
 .index-team-position {
   font-size: 16px;
   line-height: 1.19;
+}
+
+.index-team-card {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--primary-bg-color);
 }
 /* ------------------------------------------------------------ */
 /*                      Portfolio-Main                          */
