@@ -74,27 +74,58 @@ body {
 }
 /* ------------------------------------------------------------ */
 /* header */
-.header-nav .link.current {
+.header-box {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  margin-left: 93px;
+}
+
+.header-menu {
+  display: flex;
+}
+
+.header-menu .item + .item {
+  margin-left: 50px;
+}
+
+.header-menu .link.current {
   color: var(--accent-color);
 }
 
-.header-nav .link {
+.header-menu .link {
   color: var(--primary-text-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-contacts .item + .item {
+  margin-left: 50px;
 }
 
 .header-contacts .link {
   color: var(--secondary-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
-.header-nav .link,
+.header-menu .link,
 .header-contacts .link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.header-nav .link:hover,
-.header-nav .link:focus,
+.header-menu .link:hover,
+.header-menu .link:focus,
 .header-contacts .link:hover,
 .header-contacts .link:focus,
 .footer-contacts .link:hover,
