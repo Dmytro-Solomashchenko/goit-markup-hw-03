@@ -294,12 +294,11 @@ img {
 
 .index-team-list .item {
   width: 270px;
-  margin-right: 30px;
   border-radius: 0px 0px 4px 4px;
 }
 
-.index-team-list .item:nth-child(4n) {
-  margin-right: 0;
+.index-team-list .item + .item {
+  margin-left: 30px;
 }
 
 .index-team-title {
