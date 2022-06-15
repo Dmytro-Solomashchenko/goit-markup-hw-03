@@ -262,6 +262,18 @@ img {
   padding-top: 0;
 }
 
+.index-work-list {
+  display: flex;
+}
+
+.index-work-list .item {
+  width: calc((100% - 60px) / 3);
+}
+
+.index-work-list .item + .item {
+  margin-left: 30px;
+}
+
 .index-work-title {
   color: #212121;
   font-weight: 700;
